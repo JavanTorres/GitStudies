@@ -1,0 +1,60 @@
+http://rogerdudler.github.io/git-guide/index.pt_BR.html
+
+Subindo um repositório para o Github: Criar a pasta do projeto, com o nome de exemplo 'angular1' localmente e depois criar um projeto com o mesmo nome remotamente (github, gitlab, etc), rodar os comandos:
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/JavanTorres/angular1.git
+git push -u origin master
+
+
+
+
+--- Trabalhando com um Branch local.
+
+. Criar um novo branch chamado "nome_do_branch_local" e selecione-o usando:
+	git checkout -b nome_do_branch_local
+
+. Alterar o Brach Local:
+	git checkout master
+
+. Para deletar um branch local:
+	git branch -D nome_do_branch_loc
+
+	--- Fluxo padrão para subir alterações.
+
+.  Para adicionar alterações em um arquivo já existente ou arquivo novo:
+	git add nome_do_documento
+
+.  Para adicionar todos os arquivos ao branch local:
+	git add -A
+
+.  Para commitar alterações já adicionadas ao branch local:
+	git commit -m "Comentários em relação ao commit."
+
+.  Para adicionar todas as alterações feitas no branch e commitar ao mesmo tempo:
+	git commit -am "Comentários em relação ao commit."	
+
+--- Trabalhando com um Branch remoto.
+                           
+. Para baixar um branch remoto:
+	git checkout -b nome_do_branch_local origin/nome_do_branch_remoto
+
+. Para fazer merge puxando as alterações do branch_local_de_alteracao (branch criado com base no branch_local), com o branch_local que será enviado para a nuvem:
+	# Na hora de fazer o merge é preciso estar no branch branch_local.
+	git merge branch_local_de_alteracao
+
+. Criando um Branch remoto/Enviando o branch local:
+	#Caso não exista uma branch remoto com o mesmo nome do branch local em 
+	git push origin nome_do_branch_local
+
+https://git-scm.com/book/pt-br/v1/Git-Essencial-Desfazendo-Coisas
+
+
+
+
+
+
+
+
+
