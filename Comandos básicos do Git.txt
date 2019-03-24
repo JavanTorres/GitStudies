@@ -50,5 +50,5 @@ git push -u origin master
 
 https://git-scm.com/book/pt-br/v1/Git-Essencial-Desfazendo-Coisas
 
-KAKAKAKAKAKAKAKAEEEEEEEE
+RESULTADO QUE QUERO
 
