@@ -50,17 +50,8 @@ git push -u origin master
 
 https://git-scm.com/book/pt-br/v1/Git-Essencial-Desfazendo-Coisas
 
-<<<<<<< HEAD
-#
-=======
-*
 
->>>>>>> d0f0aa2e73da9c9d91e0643481e39f32c6e9b961
-
-
-
-
-
+.
 
 
 
