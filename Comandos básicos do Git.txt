@@ -48,15 +48,15 @@ git push -u origin master
 	#Caso não exista uma branch remoto com o mesmo nome do branch local em 
 	git push origin nome_do_branch_local
 	
-	gg
+	ggmmmmmm
 	//ggg/
-	ggg
-	/g
+	gggmmmmmmmmmm
+	/gmmmmmmmmmmmm
 	gg/ggg
-	/gg
-	/gg
-	g
-	/gg
+	/ggmmmmm
+	/ggmmmmmmmmmmmmmm
+	gmmmmmmmmmmmmmm
+	/ggmmmmmmmmmm
 	/g
 	g
 	/gg
