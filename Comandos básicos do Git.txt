@@ -1,3 +1,9 @@
+-- Configurando usuário global e e-mail, sem isso configurado em um ambiente Linux fica inviável.
+
+	git config --global user.name "Javan Torres"
+
+	git config --global user.email "javantorres@gmail.com"
+
 http://rogerdudler.github.io/git-guide/index.pt_BR.html
 
 Subindo um repositório para o Github: Criar a pasta do projeto, com o nome de exemplo 'angular1' localmente e depois criar um projeto com o mesmo nome remotamente (github, gitlab, etc), rodar os comandos:
