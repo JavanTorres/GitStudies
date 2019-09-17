@@ -4,6 +4,10 @@
 
 	git config --global user.email "javantorres@gmail.com"
 
+-- Armazenar credenciais após colocar login e senha (não de forma global).
+	git config credential.helper store
+
+
 http://rogerdudler.github.io/git-guide/index.pt_BR.html
 
 Subindo um repositório para o Github: Criar a pasta do projeto, com o nome de exemplo 'angular1' localmente e depois criar um projeto com o mesmo nome remotamente (github, gitlab, etc), rodar os comandos:
