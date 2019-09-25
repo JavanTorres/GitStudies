@@ -43,7 +43,19 @@ git push -u origin master
 	git commit -m "Comentários em relação ao commit."
 
 .  Para adicionar todas as alterações feitas no branch e commitar ao mesmo tempo:
-	git commit -am "Comentários em relação ao commit."	
+	git commit -am "Comentários em relação ao commit."
+
+.  Puxar alterações de um branch específico:
+	git pull origin nome_do_branch_remoto
+
+.  Melhorar o log:
+>>>
+	git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+.  Rodar:
+ 	git lg
+ 
+>>
 
 --- Trabalhando com um Branch remoto.
                            
