@@ -7,7 +7,6 @@
 -- Armazenar credenciais após colocar login e senha (não de forma global).
 	git config credential.helper store
 
-
 http://rogerdudler.github.io/git-guide/index.pt_BR.html
 
 Subindo um repositório para o Github: Criar a pasta do projeto, com o nome de exemplo 'angular1' localmente e depois criar um projeto com o mesmo nome remotamente (github, gitlab, etc), rodar os comandos:
@@ -16,7 +15,6 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/JavanTorres/angular1.git
 git push -u origin master
-
 
 --- Trabalhando com um Branch local.
 
@@ -71,6 +69,9 @@ git push -u origin master
 
 .  Revertendo o primeiro Stash da pilha, mas matendo o Stash:
 	git stash show -p | git apply -R
+
+.  Dropando um Stash específico.
+	git stash drop stash@{2}
 	
 
 git stash show stash@{x} -p | git apply --reverse
@@ -88,5 +89,3 @@ git stash show stash@{x} -p | git apply --reverse
 	#Caso não exista uma branch remoto com o mesmo nome do branch local em 
 	git push origin nome_do_branch_local
 	
-
-
