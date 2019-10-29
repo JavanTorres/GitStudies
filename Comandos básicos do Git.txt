@@ -31,7 +31,7 @@ git push -u origin master
 . Para deletar um branch local:
 	git branch -D nome_do_branch_loc
 
-	--- Fluxo padrão para subir alterações.
+--- Fluxo padrão para subir alterações.
 
 .  Para adicionar alterações em um arquivo já existente ou arquivo novo:
 	git add nome_do_documento
@@ -62,9 +62,12 @@ git push -u origin master
 .  Fazendo Stash do trabalho:
 	git stash
 
-.  Fazendo Stash do trabalho e gravando uma descrição, as aspas são opcionais:
-	git stash save 'salvando as alterações no properties'
-
+.  Fazendo Stash do trabalho e gravando uma descrição 'salvando as alterações no properties':
+	git stash save salvando as alterações no properties
+	
+.  Fazendo Stash do trabalho e gravando uma chave 'arquivo_de_pagamento' (opcional):
+	git stash push -m arquivo_de_pagamento app/controller/pagamentoController.js
+	
 .  Listando alterações armazenadas via Stash:
 	git stash list
 
