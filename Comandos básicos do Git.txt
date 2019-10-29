@@ -18,8 +18,6 @@ git remote add origin https://github.com/JavanTorres/angular1.git
 git push -u origin master
 
 
-
-
 --- Trabalhando com um Branch local.
 
 . Criar um novo branch chamado "nome_do_branch_local" e selecione-o usando:
@@ -56,6 +54,13 @@ git push -u origin master
  	git lg
  
 >>
+
+* STASH
+
+.  Fazendo Stash do trabalho:
+	git stash
+
+
 
 --- Trabalhando com um Branch remoto.
                            
