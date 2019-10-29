@@ -60,7 +60,11 @@ git push -u origin master
 .  Fazendo Stash do trabalho:
 	git stash
 
+.  Listando alterações armazenadas via Stash:
+	git stash list
 
+.  Aplicando uma alteração armazenada via Stash de índice 3 (numeração de array (2)):
+	git stash apply stash@{2}
 
 --- Trabalhando com um Branch remoto.
                            
