@@ -16,6 +16,10 @@ git commit -m "first commit"
 git remote add origin https://github.com/JavanTorres/angular1.git
 git push -u origin master
 
+--- Trabalhando com arquivos.
+. Listar a situação dos arquivos:
+	git status
+	
 --- Trabalhando com um Branch local.
 
 . Criar um novo branch chamado "nome_do_branch_local" e selecione-o usando:
@@ -53,10 +57,13 @@ git push -u origin master
  
 >>
 
-* STASH - https://git-scm.com/book/pt-br/v1/Ferramentas-do-Git-Fazendo-Stash
+--- STASH - https://git-scm.com/book/pt-br/v1/Ferramentas-do-Git-Fazendo-Stash
 
 .  Fazendo Stash do trabalho:
 	git stash
+
+.  Fazendo Stash do trabalho e gravando uma descrição, as aspas são opcionais:
+	git stash save 'salvando as alterações no properties'
 
 .  Listando alterações armazenadas via Stash:
 	git stash list
