@@ -63,8 +63,17 @@ git push -u origin master
 .  Listando alterações armazenadas via Stash:
 	git stash list
 
-.  Aplicando uma alteração armazenada via Stash de índice 3 (numeração de array (2)):
+.  Aplicando uma alteração armazenada via Stash de índice 3 (como anumeração de array (2), mas o Stash é uma PILHA):
 	git stash apply stash@{2}
+
+.  Revertendo um Stash de índice 3, mas matendo o Stash:
+	git stash show -p stash@{2} | git apply -R
+
+.  Revertendo o primeiro Stash da pilha, mas matendo o Stash:
+	git stash show -p | git apply -R
+	
+
+git stash show stash@{x} -p | git apply --reverse
 
 --- Trabalhando com um Branch remoto.
                            
