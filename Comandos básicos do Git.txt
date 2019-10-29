@@ -1,3 +1,6 @@
+. Verificar versão do Git instalado.
+	git --version
+
 -- Configurando usuário global e e-mail, sem isso configurado em um ambiente Linux fica inviável.
 
 	git config --global user.name "Javan Torres"
