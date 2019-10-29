@@ -72,9 +72,12 @@ git push -u origin master
 
 .  Dropando um Stash específico.
 	git stash drop stash@{2}
-	
 
-git stash show stash@{x} -p | git apply --reverse
+.  Dropando um Stash específico.
+	git stash drop stash@{2}
+	
+.  Dando um apply e em seguida um drop no Stash que está no topo da pilha.
+	git stash pop
 
 --- Trabalhando com um Branch remoto.
                            
