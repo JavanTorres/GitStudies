@@ -53,7 +53,7 @@ git push -u origin master
  
 >>
 
-* STASH
+* STASH - https://git-scm.com/book/pt-br/v1/Ferramentas-do-Git-Fazendo-Stash
 
 .  Fazendo Stash do trabalho:
 	git stash
