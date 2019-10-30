@@ -85,9 +85,6 @@ git push -u origin master
 
 .  Dropando um Stash específico.
 	git stash drop stash@{2}
-
-.  Dropando um Stash específico.
-	git stash drop stash@{2}
 	
 .  Dando um apply e em seguida um drop no Stash que está no topo da pilha.
 	git stash pop
