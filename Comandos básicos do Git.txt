@@ -101,4 +101,15 @@ git push -u origin master
 . Criando um Branch remoto/Enviando o branch local:
 	#Caso não exista uma branch remoto com o mesmo nome do branch local em 
 	git push origin nome_do_branch_local
+
+-- Sobrescrever com MERGE
+
+Temos dois branchs atual_branch e old_branch, queremos sobrescrever o old_branch para deixar ele igual ao atual_branch.
+
+git checkout atual_branch 	# source name
+git merge -s ours old_branch, 	# target name
+git checkout old_branch, 	# target name
+git merge atual_branch 		# source name
+
+Após 'git merge atual_branch' todas as alterações de 'atual_branch' serão sobrescritas em 'old_branch' e 'old_branch' que estava muito defasado ficará igual ao 'atual_branch'.
 	
