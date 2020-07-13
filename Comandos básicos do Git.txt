@@ -67,6 +67,8 @@ git push -u origin master
 
 .  Fazendo Stash do trabalho:
 	git stash
+.  Fazendo Stash do trabalho incluíndo arquivos novos:
+	git stash --include-untracked
 
 .  Fazendo Stash do trabalho e gravando uma descrição 'salvando as alterações no properties':
 	git stash save salvando as alterações no properties
