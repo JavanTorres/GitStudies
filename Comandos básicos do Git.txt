@@ -118,4 +118,6 @@ git checkout old_branch, 	# target name
 git merge atual_branch 		# source name
 
 Após 'git merge atual_branch' todas as alterações de 'atual_branch' serão sobrescritas em 'old_branch' e 'old_branch' que estava muito defasado ficará igual ao 'atual_branch'.
-	
+
+Usar git flow com rebase?
+https://gist.github.com/paulo-raoni/1a8f52138f67fd40379f454ee61aa4ce#file-gitflowpassoapasso-md
