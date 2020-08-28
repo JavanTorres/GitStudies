@@ -22,6 +22,9 @@ git commit -m "first commit"
 git remote add origin https://github.com/JavanTorres/angular1.git
 git push -u origin master
 
+-- Fazer clone do projeto já em um branch específico
+	git clone -b dev https://github.com/username/project.git
+
 --- Trabalhando com arquivos.
 . Listar a situação dos arquivos:
 	git status
