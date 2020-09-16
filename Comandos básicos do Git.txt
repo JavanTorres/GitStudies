@@ -124,3 +124,7 @@ Após 'git merge atual_branch' todas as alterações de 'atual_branch' serão so
 
 Usar git flow com rebase?
 https://gist.github.com/paulo-raoni/1a8f52138f67fd40379f454ee61aa4ce#file-gitflowpassoapasso-md
+
+https://stackoverflow.com/questions/16288176/your-branch-is-ahead-of-origin-master-by-3-commits
+
+https://stackoverflow.com/questions/2016901/viewing-unpushed-git-commits
