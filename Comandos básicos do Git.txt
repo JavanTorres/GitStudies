@@ -10,6 +10,14 @@
 
 	git config --global user.email "javantorres@gmail.com"
 
+-- Configurando um ambiente local, ideal para pastas/projetos específicos, digamos que você está em um máquina de trabalho, mas quer um repositório pessoal na máquina de forma ao realizar estudos e commits não seja usado usuário de trabalho:
+
+git config --local user.name "Javan Torres"
+
+git config --local user.email javantorres@gmail.com"
+
+* Ainda existe a configuração de sistema '--system'.
+
 -- Armazenar credenciais após colocar login e senha (não de forma global).
 	git config credential.helper store
 
